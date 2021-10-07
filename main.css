@@ -1,0 +1,65 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --limg: url('LighBG.jpg');
+    --dimg: url('DarkBG.jpg');
+}
+
+#head1{
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    font-size: large;
+}
+#head3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+#head4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #000000;
+    font-size: large;
+}
+#about{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: small;
+}
+#contact{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    font-size: medium;
+}
+#form{
+    color: #ffffff;
+    padding-right: 20%;
+    float: right;
+    background-color: #000000;
+}
+#img1{
+  align-self: center;  
+}
+#img2{
+    float: left;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+#img3{
+    float: right;
+    padding-right: 20%;
+    padding-left: 10%;
+}
+
+.light-theme{
+    --fontColor: var(--black);
+    --bgimg: var(--limg);
+}
+
+.dark-theme{
+    --fontColor: var(--white);
+    --bgimg: var(--dimg);
+}
