@@ -1,0 +1,17 @@
+You've put in a good amount of work into this assignment. Great Job! I appreciate how you've tried to match the format of the website and positioning of the elements accurately. Thanks for uploading the images you've used along with your code files, it made my work easier.
+
+I just wanted to list a few suggestions to improve the accuracy of the look of the webpage (though I understand that you have done quite a lot given the small amount of time):
+
+- To include a gif as a background in your head1 div, you can include these lines in the CSS block for #head1:
+    background-image: url('gif-name.gif');
+    background-repeat: no-repeat;
+  Don't forget to include the full path to the gif if it is not within your code folder. You can experiment with other css properties to adjust gif size, speed, opacity etc.
+
+- To make img2 and img3 rounder in shape you can use the border-radius property in the respective CSS blocks.
+
+- You even linked the social media icons to the respective websites!! That's amazing :)
+  To get the social media icons and logos on different lines you can use break tags <br> in your HTML file.
+
+- Your form looks great, but you can style the input fields further to match the page's theme. This link explains many properties related to that: https://www.w3schools.com/css/css_form.asp
+
+CSS properties are endless, so keep experimenting to see how you can make your projects more attractive, neat and dynamic. Most importantly, keep up the good work!
